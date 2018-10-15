@@ -1,4 +1,6 @@
 # EMNIST_proj_1
+___Reupload due to lost acct___
+
 EMNIST reader in python with tensorflow
 
 Modified mnist.py & dataset.py from tensorflow
