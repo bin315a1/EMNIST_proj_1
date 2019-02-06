@@ -1,12 +1,10 @@
 # EMNIST_proj_1
-___Reupload due to lost acct___
 
 EMNIST reader in python with tensorflow
 
 Modified mnist.py & dataset.py from tensorflow
 
 Import the following 4 datasets from NIST, URL: https://www.nist.gov/itl/iad/image-group/emnist-dataset
-
 
 From EMNIST-MNISTFORMAT, use 
 
