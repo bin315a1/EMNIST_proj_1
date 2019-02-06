@@ -1,25 +1,21 @@
 import tensorflow as tf
 import random
-import dataset_gzipLoader as D
+import Dataset_main as D
 import matplotlib.pyplot as plt
 tf.set_random_seed(777)
-
-##EMNIST dataset reader
-##Dataset from https://www.nist.gov/itl/iad/image-group/emnist-dataset
-##
 
 class EMnist:
 
     sess = tf.InteractiveSession()
 
     def __init__(self, learningRate=0.35, batch_size=19387,
-                 epoch_rep=10, NN_depth=4, NN_width=720,
+                 epoch_rep=1, NN_depth=4, NN_width=720,
                  dropOut_keeprate=0.7, tensorboard=False):
 
-        _TEST_DATA_FILENAME = 'emnist-byclass-test-images-idx3-ubyte.gz'
-        _TEST_LABELS_FILENAME = 'emnist-byclass-test-labels-idx1-ubyte.gz'
-        _TRAIN_DATA_FILENAME = 'emnist-byclass-train-images-idx3-ubyte.gz'
-        _TRAIN_LABELS_FILENAME = 'emnist-byclass-train-labels-idx1-ubyte.gz'
+        _TEST_DATA_FILENAME = 'D:\DataSet\EMNIST_MNISTFORMAT\gzip\emnist-byclass-test-images-idx3-ubyte.gz'
+        _TEST_LABELS_FILENAME = 'D:\DataSet\EMNIST_MNISTFORMAT\gzip\emnist-byclass-test-labels-idx1-ubyte.gz'
+        _TRAIN_DATA_FILENAME = 'D:\DataSet\EMNIST_MNISTFORMAT\gzip\emnist-byclass-train-images-idx3-ubyte.gz'
+        _TRAIN_LABELS_FILENAME = 'D:\DataSet\EMNIST_MNISTFORMAT\gzip\emnist-byclass-train-labels-idx1-ubyte.gz'
         self.num_train = 697932
         self.num_test =  116323
 

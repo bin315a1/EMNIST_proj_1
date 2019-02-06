@@ -1,0 +1,75 @@
+
+Test 1:
+LR: 0.02
+BS: 19387
+ER: 1
+LC: 2
+NW: 512
+DR: 0.7
+Accuracy: 28.14%
+
+Test 1:
+LR: 0.02
+BS: 19387
+ER: 20
+LC: 3
+NW: 512
+DR: 0.7
+Accuracy: 58.97%
+
+Test 1:
+LR: 0.02
+BS: 19387
+ER: 40
+LC: 4
+NW: 1024
+DR: 0.7
+Accuracy: 64.95%
+
+Test 1:
+LR: 0.35
+BS: 19387
+ER: 100
+LC: 4
+NW: 700
+DR: 0.7
+Accuracy: 83.90%
+
+Test 1:
+LR: 0.35
+BS: 19387
+ER: 1
+LC: 2
+NW: 32
+DR: 0.7
+Accuracy: 43.04%
+
+Test 1:
+LR: 0.35
+BS: 19387
+ER: 1
+LC: 5
+NW: 720
+DR: 0.7
+Accuracy: 14.25%
+Cost: 4.519698374801212
+
+Test 1:
+LR: 0.35
+BS: 19387
+ER: 1
+LC: 5
+NW: 720
+DR: 0.7
+Accuracy: 7.40%
+Cost: 4.534853570991093
+
+Test 1:
+LR: 0.35
+BS: 19387
+ER: 1
+LC: 5
+NW: 720
+DR: 0.7
+Accuracy: 7.40%
+Cost: 4.534853570991093
